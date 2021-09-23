@@ -1,5 +1,5 @@
 # jax-for-hamiltonian
-This notebook contains a brief introduction to [JAX](https://github.com/google/jax) and a demonstration of how it can be used to define and solve the equations of motion of a simple mass-spring system.
+This notebook contains a brief introduction to [JAX](https://github.com/google/jax) and a demonstration of how it can be used to define and solve the equations of motion of a simple mass-spring system. I wrote this up in the process of learning to create wave propagation simulations from scratch.
 
 Relevant features of JAX, as described in the JAX repository:
 - "automatically differentiate native Python and NumPy code" with the `grad` function (I used this to automatically generate the equations of motion without having to compute them by hand)
